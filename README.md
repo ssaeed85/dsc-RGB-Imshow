@@ -5,6 +5,10 @@ This notebook provides an in-depth exploration of the RGB (Red, Green, Blue) col
 ### Contents
 >Introduction to RGB Color Model\
 > Explanation of the RGB color model and its significance.\
+> `imshow` basics and bit-depth\
+> Building RGB images from individual channels\
+> Primary and secondary color gradients\
+> 2-D color gradients and channel tiling\
 > Code examples to visualize different RGB colors.
 
 
@@ -12,15 +16,22 @@ This notebook provides an in-depth exploration of the RGB (Red, Green, Blue) col
 To run this notebook, ensure you have the following dependencies installed:
 
 - Python 3.x
+- NumPy
 - Matplotlib
 - IPython
 - Jupyter Notebook
+
+You can install the Python dependencies with:
+```
+pip install -r requirements.txt
+```
 
 ### Usage
 Clone the repository or download the RGBUnderstanding.ipynb file.
 Open the notebook in Jupyter Notebook or JupyterLab.
 Follow the instructions and code examples provided to understand and manipulate RGB colors.
-Conclusion
+
+### Conclusion
 Understanding the RGB color model is essential for working with digital images and graphics. This notebook provides a practical guide to visualizing and manipulating RGB colors, equipping you with the knowledge and tools needed to apply these concepts in your projects.
 
 ### License
